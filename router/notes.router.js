@@ -4,7 +4,7 @@ const { auth } = require("../middleware/auth.middleware")
 
 const notesRouter=express.Router()
 
-notesRouter.use(auth)
+// notesRouter.use(auth)
 
 notesRouter.post("/add",async(req,res)=>{
     // const {title,decr}=req.body
